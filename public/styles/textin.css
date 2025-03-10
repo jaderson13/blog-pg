@@ -1,0 +1,142 @@
+section {
+  background: #1b2025;
+  border: solid #555c63 1px;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+section h2 {
+  font-family: arial;
+}
+
+section article {
+  font-size: 20px;
+}
+
+body {
+  background: black;
+}
+
+span{
+    margin-right:5px;
+}
+
+p{
+    margin-top:1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 15% 82%;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+form,
+.artigos {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  background: #1b2025;
+  padding: 20px;
+  border: solid #555c63 1px;
+  color: white;
+}
+
+form {
+  border-top: none;
+  grid-row: 1/25;
+}
+
+li button {
+  display: none;
+}
+
+.button {
+  background: none;
+  display: unset;
+  color: white;
+  border: none;
+}
+
+.button:hover {
+  color: red;
+}
+
+.artigos {
+  margin: 30px 0px 0px 0px;
+  border-radius: 6px;
+}
+
+form button {
+  background: none;
+  border: solid #555c63 1px;
+  margin-top: 15px;
+  color: white;
+}
+
+form button:active {
+  background: white;
+  color: black;
+  border: solid white 1px;
+}
+
+.artigos ul {
+  padding-left: 20px;
+  margin: 0px;
+}
+
+.artigos a {
+  color: white;
+}
+
+.artigos a:hover {
+  color: rgb(53, 53, 255);
+}
+
+.artigos h2 {
+  margin: 0px 0px 30px 0px;
+}
+
+form input,
+form textarea {
+  background: rgb(102, 102, 102);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+
+form input:focus,
+form textarea:focus {
+  background: rgb(85, 85, 85);
+}
+
+form textarea {
+  padding: 15px;
+}
+
+@media (min-width: 801px) and (max-width: 1400px) {
+  main {
+    grid-template-columns: 40% 58%;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: 100%;
+    padding: 10px;
+    gap: 30px;
+  }
+
+  form {
+    grid-row: auto;
+    border-top: solid #555c63 1px;
+    border-radius: 6px;
+  }
+}
