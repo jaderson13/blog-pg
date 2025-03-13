@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import pg from "pg";
 
 const app = express();
-const porta = 3000;
+const porta = 3100;
 const { Pool } = pg;
 
 const pool = new Pool({

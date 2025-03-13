@@ -10,7 +10,7 @@ section h2 {
   font-family: arial;
 }
 
-section article {
+section pre {
   font-size: 20px;
 }
 
@@ -117,7 +117,8 @@ form textarea:focus {
 }
 
 form textarea {
-  padding: 15px;
+  padding: 20px;
+  font-size: 16px;
 }
 
 @media (min-width: 801px) and (max-width: 1400px) {
