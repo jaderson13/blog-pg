@@ -11,7 +11,11 @@ section h2 {
 }
 
 section pre {
-  font-size: 20px;
+  font-size: 17px;
+  overflow:auto;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  white-space:pre-wrap;
+  word-break:break-word;
 }
 
 body {

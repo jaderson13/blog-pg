@@ -1,9 +1,10 @@
 import express from "express";
 import bodyParser from "body-parser";
 import pg from "pg";
+import 'dotenv/config'
 
 const app = express();
-const porta = 3100;
+const porta = 3000;
 const { Pool } = pg;
 
 const pool = new Pool({
